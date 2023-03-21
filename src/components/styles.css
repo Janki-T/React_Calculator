@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap");
+
+/* here we give style to container  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.width300px {
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.input_bg {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+.bg_grey {
+  background-color: rgb(165, 164, 164);
+}
+
+.bg_orange {
+  background-color: orange;
+}
+
+.btn_normal_style {
+  font-size: 25px;
+  border: none;
+  width: 25%;
+  height: 70px;
+}
+
+.btn_zero {
+  width: 50%;
+  font-size: 25px;
+  border: none;
+  height: 70px;
+}
+
+.border_right {
+  border-right: 1px solid gray;
+}
+
+.border_top {
+  border-top: 1px solid gray;
+}
